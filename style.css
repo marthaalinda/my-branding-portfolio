@@ -1,0 +1,33 @@
+:root{
+    --primary-color: crimson;
+    --secondary-color:black;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: bold;
+    color: var(--secondary-color);
+}
+p{
+    font-weight: normal;
+}
+.hero{
+    background: cadetblue;
+    text-align: center;
+    padding: 120px 20px;
+}
+.hero p{
+    font-size: 36px;
+    font-weight: bold;
+}
+.hero h2{
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 2;
+}
+.btn-branding{
+ background:var(--primary-color) ;
+ border-radius: 4px;
+ color: var(--secondary-color);
+ font-size: 18px;
+ line-height: 27px;
+ padding: 15px 30px;
+}
