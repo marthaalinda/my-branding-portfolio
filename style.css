@@ -59,11 +59,16 @@ p{
 .about-section h2{
     font-size: 18px;
 }
-
+.about-section{
+    padding: 120px 20px;
+}
+.about-section-content{
+    margin: 30px;
+}
 @media (max-width:900px) {
     h1{
         font-size: 40px;
-        line-height: 2px;
+        line-height: 52px;
     }
     h2{
         font-size: 44px;
@@ -80,5 +85,9 @@ p{
         font-size: 20px;
         padding-top: 35px;
         
+    }
+    .about-section{
+        padding: 0 auto;
+        text-align: center;
     }
 }
