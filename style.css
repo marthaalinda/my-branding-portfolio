@@ -1,6 +1,7 @@
 :root{
     --primary-color: crimson;
     --secondary-color:black;
+    --tertiary-color:salmon;
 }
 h1,h2,h3,h4,h5,h6{
     font-weight: bold;
@@ -73,6 +74,51 @@ p{
 .content{
     margin: 30px;
 }
+.logo{
+    max-height: 40px;
+}
+nav{
+    padding: 20px 0;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+}
+nav li{
+    display: inline;
+    line-height: 40px;
+    margin-left: 15px;
+}
+nav a{
+    text-decoration: none;
+    color: darkorange;
+    transition: all 100ms ease-in-out;
+}
+nav a:hover,
+nav li.active a{
+    color: var(--tertiary-color);
+}
+footer{
+    margin: 60px 0;
+}
+footer.email-link{
+   text-decoration: none;
+   color:indigo;
+   font-size: 24px;
+}
+footer.email-link:hover{
+    color: lawngreen;
+}
+footer.social-links a{
+   margin:0 20px;
+   color:indigo;
+   background-color: var(--tertiary-color);
+   padding: 10px 14px;
+   transition: all 100ms ease-in-out;
+}
+footer.social-links a:hover{
+    color: orchid;
+}
 @media (max-width:900px) {
     h1{
         font-size: 40px;
@@ -97,5 +143,8 @@ p{
     .content{
         padding: 0 auto;
         text-align: center;
+    }
+    nav a{
+        font-size: 14px;
     }
 }
