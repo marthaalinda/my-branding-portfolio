@@ -1,11 +1,13 @@
 :root{
-    --primary-color: crimson;
+    --primary-color: rgb(168, 33, 150);
     --secondary-color:black;
-    --tertiary-color:salmon;
+    --tertiary-color:rgb(62, 162, 209);
     --first-font-family: 'Patrick Hand', cursive;
     --second-font-family:'Lobster Two', cursive;
     --third-font-family:'Big Shoulders Stencil Display', cursive;
 }
+
+
 h1,h2,h3,h4,h5,h6{
     font-weight: bold;
     color: var(--secondary-color);
@@ -17,6 +19,7 @@ h1{
 h2{
     font-size: 55px;
     font-family: var(--third-font-family);
+    color: var(--tertiary-color);
 }
 
 p{
@@ -35,11 +38,11 @@ p{
     font-weight: bold;
 }
 .hero h2{
-    font-weight: normal;
-    font-size: 24px;
+    font-weight: bold;
+    font-size: 34px;
     line-height: 1.4px;
     padding-top: 23px;
-
+   color: var(--primary-color);
 }
 
 .btn-branding{
@@ -62,7 +65,7 @@ p{
     padding: 120px 60px;
 }
 .content h1{
-    
+    font-family: var(--third-font-family);
     font-size: 64px;
 }
 .content h2{
@@ -78,6 +81,7 @@ p{
 }
 .content-container{
     padding: 120px 20px;
+    padding-top: 23px;
 }
 .content{
     margin: 30px;
