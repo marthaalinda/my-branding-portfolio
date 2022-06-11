@@ -4,6 +4,7 @@
     --tertiary-color:salmon;
     --first-font-family: 'Patrick Hand', cursive;
     --second-font-family:'Lobster Two', cursive;
+    --third-font-family:'Big Shoulders Stencil Display', cursive;
 }
 h1,h2,h3,h4,h5,h6{
     font-weight: bold;
@@ -15,7 +16,7 @@ h1{
 }
 h2{
     font-size: 55px;
-    
+    font-family: var(--third-font-family);
 }
 
 p{
@@ -37,7 +38,10 @@ p{
     font-weight: normal;
     font-size: 24px;
     line-height: 1.4px;
+    padding-top: 23px;
+
 }
+
 .btn-branding{
  background:var(--primary-color) ;
  border-radius: 4px;
@@ -158,5 +162,8 @@ footer .social-links a:hover{
     }
     nav a{
         font-size: 14px;
+    }
+    footer{
+        padding-top: 40px;
     }
 }
