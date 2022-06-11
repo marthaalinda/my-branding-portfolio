@@ -2,6 +2,8 @@
     --primary-color: crimson;
     --secondary-color:black;
     --tertiary-color:salmon;
+    --first-font-family: 'Patrick Hand', cursive;
+    --second-font-family:'Lobster Two', cursive;
 }
 h1,h2,h3,h4,h5,h6{
     font-weight: bold;
@@ -18,8 +20,9 @@ h2{
 
 p{
     font-weight: normal;
-    font-size: 16px;
+    font-size: 30px;
     line-height: 30px;
+    font-family: var(--second-font-family);
 }
 .hero{
     background: cadetblue;
@@ -66,8 +69,8 @@ p{
     margin: 20px 0 0 ;
 }
 .content p{
-    font-size: 14px;
-    
+    font-size: 26px;
+    font-family: var(--first-font-family);
 }
 .content-container{
     padding: 120px 20px;
@@ -76,7 +79,7 @@ p{
     margin: 30px;
 }
 .logo{
-    max-height: 40px;
+    max-height: 100px;
 }
 nav{
     padding: 20px 0;
