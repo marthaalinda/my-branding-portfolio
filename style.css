@@ -44,7 +44,12 @@ p{
     padding-top: 23px;
    color: var(--primary-color);
 }
-
+.hero h1{
+    font-family: var(--third-font-family);
+}
+.reach-out h1{
+    font-family: var(--second-font-family);
+}
 .btn-branding{
  background:var(--primary-color) ;
  border-radius: 4px;
